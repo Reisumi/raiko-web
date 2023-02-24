@@ -40,7 +40,6 @@ sudo chown $USER /srv/taiko-web
 git clone https://github.com/Reisumi/taiko-web /srv/taiko-web
 
 cd /srv/taiko-web
-tools/get_version.sh
 cp tools/hooks/* .git/hooks/
 cp config.example.py config.py
 sudo cp tools/nginx.conf /etc/nginx/conf.d/taiko-web.conf
