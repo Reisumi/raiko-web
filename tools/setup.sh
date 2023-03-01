@@ -37,9 +37,10 @@ sudo apt install -y mongodb-org
 
 sudo mkdir -p /srv/taiko-web
 sudo chown $USER /srv/taiko-web
-git clone https://github.com/Reisumi/taiko-web /srv/taiko-web
+git clone https://github.com/bui/taiko-web.git /srv/taiko-web
 
 cd /srv/taiko-web
+tools/get_version.sh
 cp tools/hooks/* .git/hooks/
 cp config.example.py config.py
 sudo cp tools/nginx.conf /etc/nginx/conf.d/taiko-web.conf
