@@ -1,7 +1,7 @@
 # taiko-web
 A web-based Taiko no Tatsujin simulator.
 
-Running instance: [server down](server down)
+Running instance: [server down]
 
 Still in development. Works best with Chrome.
 
