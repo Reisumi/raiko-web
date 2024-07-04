@@ -1,7 +1,7 @@
 # taiko-web
 A web-based Taiko no Tatsujin simulator.
 
-Running instance: [https://taiko.srbn.xyz](https://taiko.srbn.xyz)
+Running instance: [https://taiko.srbn.xyz](server down)
 
 Still in development. Works best with Chrome.
 
